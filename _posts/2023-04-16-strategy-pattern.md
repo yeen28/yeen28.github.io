@@ -16,7 +16,7 @@ permalink:
 <br/>
 
 #### 전략 패턴 사용 이유
-![img.png](../assets/img/posts/img.png)
+![img.png](../../../../../assets/img/posts/img.png)
 ```java
 public class Moving {
     private MovableStrategy movableStrategy;
