@@ -77,7 +77,8 @@ permalink:
 
 <br/>
 
-#### Singleton pattern 예제
+#### Singleton Pattern 예제
+
 ```java
 public class Singleton {
     private static Singleton instance = null;
@@ -97,10 +98,12 @@ public class Singleton {
 
 <br/>
 
-#### Singleton pattern 예제
+#### Strategy Pattern 예제
+
 고객이 나이에 따라 다른 할인 정책을 적용받는 커피 가게 시스템
 
-1. Strategy 인터페이스와 각 전략 클래스 정의
+<span>1. Strategy 인터페이스와 각 전략 클래스 정의</span>
+
 ```java
 // Strategy 인터페이스
 public interface DiscountStrategy {
@@ -132,7 +135,8 @@ public class AdultDiscountStrategy implements DiscountStrategy {
 }
 ```
 
-2. Context 클래스 정의
+<span>2. Context 클래스 정의</span>
+
 ```java
 public class CoffeeStore {
     private DiscountStrategy discountStrategy;
@@ -159,7 +163,8 @@ public class CoffeeStore {
 }
 ```
 
-3. 전략 패턴을 사용하는 예제 코드
+<span>3. 전략 패턴을 사용하는 예제 코드</span>
+
 ```java
 public class Main {
     public static void main(String[] args) {
