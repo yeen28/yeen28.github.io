@@ -1,5 +1,5 @@
-title: heo ye eun
-subtitle: 주니어 개발자입니다.
+title: 허예은
+subtitle: 안녕하세요
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -63,10 +63,6 @@ hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
-
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: yestar28@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
