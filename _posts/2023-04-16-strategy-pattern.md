@@ -2,7 +2,7 @@
 layout: post
 title: 전략 패턴 ( Strategy Pattern )
 author: yeeun
-category: ['JAVA']
+category: ['Study']
 tags: JAVA
 keywords: 
 usemathjax: false

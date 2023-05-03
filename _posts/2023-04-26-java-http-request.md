@@ -2,7 +2,7 @@
 layout: post
 title: JAVA에서 HTTP request 보내기
 author: yeeun
-category: ['JAVA', 'HTTP request']
+category: ['JAVA']
 tags: HTTP request
 keywords: 
 usemathjax: false
