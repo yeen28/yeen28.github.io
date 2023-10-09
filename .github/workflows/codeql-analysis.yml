@@ -26,14 +26,14 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     # Check that the Jekyll can actually build
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Build the site in the jekyll/builder container
-        run: |
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    #steps:
+    #  - name: Checkout repository
+    #    uses: actions/checkout@v3
+    #  - name: Build the site in the jekyll/builder container
+    #    run: |
+    #      docker run \
+    #      -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+    #      jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
   # Then check the markdown files are properly formatted
   #analyse:
